@@ -1,0 +1,20 @@
+h1, h2, h3, h4 {
+  margin-bottom: 1em;
+}
+
+body {
+  background: #1d1f2f;
+  color: #fbfaf6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 3em auto 3em auto;
+}
+
+.post {
+  margin: 1em;
+  padding: 1em;
+  border-top: 8px solid #cc2943;
+}
+
