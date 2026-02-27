@@ -5,6 +5,10 @@ h1, h2, h3, h4 {
 body {
   background: #1d1f2f;
   color: #fbfaf6;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .container {
