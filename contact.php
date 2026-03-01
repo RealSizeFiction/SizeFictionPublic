@@ -15,6 +15,7 @@
 
 <body>
   <div class="container"> 
+    <h1>SizeFiction Dev</h1>
     <div class="tag"><a href="/" target="_blank">Home</a></div>
     <div class="tag"><a href="https://sizefiction.net" target="_blank">SizeFiction</a></div>
     <div class="tag"><a href="https://irc.sizefiction.net" target="_blank">IRC</a></div>
