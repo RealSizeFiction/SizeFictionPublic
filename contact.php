@@ -14,18 +14,10 @@
 </head>
 
 <body>
-  <div class="container">
-   <h1>Contact</h1>
-    <form method="post">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="text" name="subject" placeholder="Subject" required>
-        <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit" name="submit">Submit</button>
-    </form>
-</div>
-</body>
-</html>
+  <div class="container"> 
+    <div class="tag"><a href="/" target="_blank">Home</a></div>
+    <div class="tag"><a href="https://sizefiction.net" target="_blank">SizeFiction</a></div>
+    <div class="tag"><a href="https://irc.sizefiction.net" target="_blank">IRC</a></div>
 
 <?php
 if (isset($_POST['submit'])) {
@@ -35,9 +27,15 @@ if (isset($_POST['submit'])) {
     $headers = "From: " . htmlspecialchars($_POST['email']);
     
     if (mail($to, $subject, $message, $headers)) {
-        echo "Email sent!";
+        echo "Submission sent!";
     } else {
         echo "Failed to send.";
     }
 }
 ?>
+
+</div>
+</body>
+</html>
+
+

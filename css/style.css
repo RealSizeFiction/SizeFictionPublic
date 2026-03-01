@@ -2,6 +2,23 @@ h1, h2, h3, h4 {
   margin-bottom: 1em;
 }
 
+input {
+  margin: 0.8em 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  font-size: 16px;
+  width: 100%;
+  margin: 0.8em 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
 .tag {
   margin-right: 0.1em;
   margin-left: 2em;

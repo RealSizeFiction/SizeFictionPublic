@@ -16,8 +16,8 @@
 <body>
   <div class="container">
     <h1>SizeFiction Dev</h1>
+    <div class="tag"><a href="/" target="_blank">Home</a></div>
     <div class="tag"><a href="https://sizefiction.net" target="_blank">SizeFiction</a></div>
-    <div class="tag"><a href="contact.php">Contact</a></div>
     <div class="tag"><a href="https://irc.sizefiction.net" target="_blank">IRC</a></div>
     <div class="post">
       <h3>Release (02/25/2026)</h3>
@@ -28,6 +28,16 @@
       <p>Hide chapter tags by default</p>
       <p>New cache system</p>
     </div>
+
+    <hr>
+     <h3>Contact</h3>
+    <form action="contact.php" method="post">
+        <div><input type="text" name="name" placeholder="Name" required></div>
+        <div><input type="email" name="email" placeholder="Email" required></div>
+        <div><input type="text" name="subject" placeholder="Subject" required></div>
+        <div><textarea name="message" placeholder="Message" required></textarea></div>
+        <button type="submit" name="submit">Submit</button>
+    </form>
   </div>
 </body>
 
