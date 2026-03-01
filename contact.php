@@ -19,6 +19,7 @@
     <div class="tag"><a href="https://sizefiction.net" target="_blank">SizeFiction</a></div>
     <div class="tag"><a href="https://irc.sizefiction.net" target="_blank">IRC</a></div>
 
+<div class="post">
 <?php
 if (isset($_POST['submit'])) {
     $to = "bebop@localhost";
@@ -33,6 +34,7 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
+</div>
 
 </div>
 </body>
