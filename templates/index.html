@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tag"><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a></div>
+<div class="tag"><a href="https://sizefiction.net" target="_blank">SizeFiction</a></div>
+<div class="tag"><a href="https://irc.sizefiction.net" target="_blank">IRC</a></div>
+   
+{% set posts_section = get_section(path="blog/_index.md") %}
+
+{% if posts_section.pages %}
+    {% set latest_posts = posts_section.pages | slice(end=2) %}
+
+    {% for latest_post in latest_posts %}
+    <div class="latest-post-summary">
+       <div class="post">
+          <a href="{{ latest_post.permalink }}">{{ latest_post.title }}</a>
+          <p>{{ latest_post.content | safe }}</p>
+       </div>
+    </div>
+    {% endfor %}
+{% endif %}
+
+{% endblock content %}
