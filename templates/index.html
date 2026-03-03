@@ -9,7 +9,7 @@
     {% for latest_post in latest_posts %}
     <div class="latest-post-summary">
        <div class="post">
-          <a href="{{ latest_post.permalink }}">{{ latest_post.title }}</a>
+         <h3><a class="link" href="{{ latest_post.permalink }}">{{ latest_post.title }}</a></h3>
           <p>{{ latest_post.content | safe }}</p>
        </div>
     </div>
