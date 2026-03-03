@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://sizefiction.net/sitemap.xml
+Sitemap: https://dev.sizefiction.net/sitemap.xml
