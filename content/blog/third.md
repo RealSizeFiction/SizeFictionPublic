@@ -1,5 +1,5 @@
 +++
- title = "2026 February Performace"
+ title = "2026 February Performance"
  date = 2026-03-03
 +++
 
